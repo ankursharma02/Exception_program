@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DF3EB4E-B2AF-467F-B5B9-D48C290B1C53}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Exception_Demo</RootNamespace>
+    <AssemblyName>Exception_Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Exception_Demo.Custom_exception_demo</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Argoutofrange_demo.cs" />
+    <Compile Include="Arg_ex.cs" />
+    <Compile Include="Catch_without_exception.cs" />
+    <Compile Include="Checked_unchecked_demo.cs" />
+    <Compile Include="CustomException_demo2.cs" />
+    <Compile Include="Custom_exception_demo.cs" />
+    <Compile Include="Custom_exception_demo1.cs" />
+    <Compile Include="Direct_info_demo.cs" />
+    <Compile Include="Divide_By_Zero_Demo.cs" />
+    <Compile Include="Exception_proper.cs" />
+    <Compile Include="FileIO_CreateFile.cs" />
+    <Compile Include="FileIO_WriteFile.cs" />
+    <Compile Include="FileNotFound_exception.cs" />
+    <Compile Include="Indexoutofrange_demo.cs" />
+    <Compile Include="Multi_Catch_demo.cs" />
+    <Compile Include="Pattern_in_File.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System_ex_Demo.cs" />
+    <Compile Include="Thorw_demo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

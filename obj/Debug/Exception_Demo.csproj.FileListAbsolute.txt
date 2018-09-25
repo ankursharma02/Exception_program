@@ -1,0 +1,7 @@
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\bin\Debug\Exception_Demo.exe.config
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\bin\Debug\Exception_Demo.exe
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\bin\Debug\Exception_Demo.pdb
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\obj\Debug\Exception_Demo.csprojAssemblyReference.cache
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\obj\Debug\Exception_Demo.csproj.CoreCompileInputs.cache
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\obj\Debug\Exception_Demo.exe
+D:\C#pro\Exception_pro\Exception_Demo\Exception_Demo\obj\Debug\Exception_Demo.pdb
